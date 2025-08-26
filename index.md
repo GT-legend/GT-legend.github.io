@@ -2,11 +2,17 @@
 layout: default
 ---
 
-## [Vendor Documentation](./vendors.html)
+# Professional Portfolio
 
-## [Tooling and Skills](./tools_and_skills.html)
+description: This page is for documenting and portraying my experience and accomplishments as a cyber security professional. I will look to continuously update this page as I continue my studies and career in the industry.
 
-## [Projects](./projects.html)
+## Links
+
+### [Vendor Documentation](./vendors.html)
+
+### [Tooling and Skills](./tools_and_skills.html)
+
+### [Projects](./projects.html)
 
 ## Education
 
