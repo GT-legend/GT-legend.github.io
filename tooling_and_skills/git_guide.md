@@ -357,13 +357,13 @@ You can run git rebase interactively using the -i flag. It will open the editor 
 git rebase -i master
 ```
 
-# p, pick = use commit
-# r, reword = use commit, but edit the commit message
-# e, edit = use commit, but stop for amending
-# s, squash = use commit, but meld into previous commit
-# f, fixup = like "squash", but discard this commit's log message
-# x, exec = run command (the rest of the line) using shell
-# d, drop = remove commit
+- p, pick = use commit
+- r, reword = use commit, but edit the commit message
+- e, edit = use commit, but stop for amending
+- s, squash = use commit, but meld into previous commit
+- f, fixup = like "squash", but discard this commit's log message
+- x, exec = run command (the rest of the line) using shell
+- d, drop = remove commit
 
 ## How to force a push request in Git:
 This command will force a push request. This is usually fine for pull request branches because nobody else should have cloned them. But this isn't something that you want to do with public repos.
