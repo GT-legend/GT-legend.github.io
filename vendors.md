@@ -4,20 +4,20 @@ layout: default
 
 ## Vendor Documentation
 
-[Bluecoat](./vendors/bluecoat.md)
+[Bluecoat](./vendors/bluecoat.html)
 
-[Cisco](./vendors/cisco.md)
+[Cisco](./vendors/cisco.html)
 
-[Checkpoint](./vendors/checkpoint.md)
+[Checkpoint](./vendors/checkpoint.html)
 
-[F5 BigIP](./vendors/f5.md)
+[F5 BigIP](./vendors/f5.html)
 
-[Fortinet](./vendors/fortinet.md)
+[Fortinet](./vendors/fortinet.html)
 
-[Juniper](./vendors/juniper.md)
+[Juniper](./vendors/juniper.html)
 
-[Palo Alto](./vendors/palo_alto.md)
+[Palo Alto](./vendors/palo_alto.html)
 
-[Proofpoint](./vendors/proofpoint)
+[Proofpoint](./vendors/proofpoint.html)
 
 [back](./)
