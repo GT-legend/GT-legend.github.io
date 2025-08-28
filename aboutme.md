@@ -11,15 +11,15 @@ I am a network security analyst and proxy/firewall engineer with Level Blue. Alw
 
 #### OS and Vendor Experience
 
-![Static Badge](./assets/img/icons/bluecoat.png/:badgeContent)![Static Badge](./assets/img/icons/checkpoint.png/:badgeContent)![Static Badge](./assets/img/icons/cisco.png/:badgeContent)![Static Badge](./assets/img/icons/f5.png/:badgeContent)![Static Badge](./assets/img/icons/fortinet.png/:badgeContent)![Static Badge](./assets/img/icons/junipernetworks.png/:badgeContent)![Static Badge](./assets/img/icons/paloaltonetworks.png/:badgeContent)![Static Badge](./assets/img/icons/Proofpoint-logo-reg-K.png/:badgeContent)
+![Local Image](./assets/img/icons/bluecoat.png)![Local Image](./assets/img/icons/checkpoint.png)![Local Image](./assets/img/icons/cisco.png)![Local Image](./assets/img/icons/f5.png)![Local Image](./assets/img/icons/fortinet.png)![Local Image](./assets/img/icons/junipernetworks.png)![Local Image](./assets/img/icons/paloaltonetworks.png)![Local Image](./assets/img/icons/Proofpoint-logo-reg-K.png)
 
 #### Languages
 
-![Static Badge](./assets/img/icons/python.png/:badgeContent)
+![Local Image](./assets/img/icons/python.png)
 
 #### Tools 
 
-![Static Badge](./assets/img/icons/wireshark.png/:badgeContent)
+![Local Image](./assets/img/icons/wireshark.png)
 
 ## Education and Certifications
 
