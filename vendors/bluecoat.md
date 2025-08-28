@@ -4,7 +4,7 @@ layout: default
 
 # Bluecoat Command Reference Guides
 
-[Bluecoat Cheat Sheet](./Bluecoat/bluecoat_cheat.html)
+[Bluecoat Cheat Sheet](./bluecoat/bluecoat_cheat.html)
 
 
-[Back}(./vendors.html)
+[Back](./vendors.html)
