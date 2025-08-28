@@ -11,15 +11,15 @@ I am a network security analyst and proxy/firewall engineer with Level Blue. Alw
 
 #### OS and Vendor Experience
 
-![Local Image](./assets/img/icons/bluecoat.png)![Local Image](./assets/img/icons/checkpoint.png)![Local Image](./assets/img/icons/cisco.png)![Local Image](./assets/img/icons/f5.png)![Local Image](./assets/img/icons/fortinet.png)![Local Image](./assets/img/icons/junipernetworks.png)![Local Image](./assets/img/icons/paloaltonetworks.png)![Local Image](./assets/img/icons/Proofpoint-logo-reg-K.png)
+![Local Image](./assets/img/icons/bluecoat.png =100x200)![Local Image](./assets/img/icons/checkpoint.png =100x200)![Local Image](./assets/img/icons/cisco.png =100x200)![Local Image](./assets/img/icons/f5.png =100x200)![Local Image](./assets/img/icons/fortinet.png =100x200)![Local Image](./assets/img/icons/junipernetworks.png =100x200)![Local Image](./assets/img/icons/paloaltonetworks.png =100x200)![Local Image](./assets/img/icons/Proofpoint-logo-reg-K.png =100x200)
 
 #### Languages
 
-![Local Image](./assets/img/icons/python.png)
+![Local Image](./assets/img/icons/python.png =100x200)
 
 #### Tools 
 
-![Local Image](./assets/img/icons/wireshark.png)
+![Local Image](./assets/img/icons/wireshark.png =100x200)
 
 ## Education and Certifications
 
