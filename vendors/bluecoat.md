@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# Command Reference Guide
+# Bluecoat Command Reference Guides
+
+[Bluecoat Cheat Sheet](./Bluecoat/bluecoat_cheat.html)
 
 
-[Back}(./vendors)
+[Back}(./vendors.html)

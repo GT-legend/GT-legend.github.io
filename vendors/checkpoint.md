@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# Checkpoint Command Reference Guide
+# Checkpoint Command Reference Guides
+
+[Checkpoint Cheat Sheet](./Checkpoint/checkpoint_cheat.html)
 
 
-[Back}(./vendors)
+[Back}(./vendors.html)
