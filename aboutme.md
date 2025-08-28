@@ -11,15 +11,15 @@ I am a network security analyst and proxy/firewall engineer with Level Blue. Alw
 
 #### OS and Vendor Experience
 
-![Local Image](./assets/img/icons/bluecoat.png =100x200)![Local Image](./assets/img/icons/checkpoint.png =100x200)![Local Image](./assets/img/icons/cisco.png =100x200)![Local Image](./assets/img/icons/f5.png =100x200)![Local Image](./assets/img/icons/fortinet.png =100x200)![Local Image](./assets/img/icons/junipernetworks.png =100x200)![Local Image](./assets/img/icons/paloaltonetworks.png =100x200)![Local Image](./assets/img/icons/Proofpoint-logo-reg-K.png =100x200)
+<img src="./assets/img/icons/bluecoat.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/checkpoint.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/cisco.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/f5.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/fortinet.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/junipernetworks.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/paloaltonetworks.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/Proofpoint.png" alt="Description" width="30" height="30">
 
 #### Languages
 
-![Local Image](./assets/img/icons/python.png =100x200)
+<img src="./assets/img/icons/python.png" alt="Description" width="30" height="30">
 
 #### Tools 
 
-![Local Image](./assets/img/icons/wireshark.png =100x200)
+<img src="./assets/img/icons/wireshark.png" alt="Description" width="30" height="30">
 
 ## Education and Certifications
 
