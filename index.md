@@ -8,6 +8,8 @@ This page is for documenting and portraying my experience and accomplishments as
 
 Please see links below for my experience with a wide range of vendor operating systems, tooling, languages, and completed projects.
 
+[About Me](./aboutme.html)
+
 ## Links
 
 ### [OS and Vendor Documentation](./vendors.html)

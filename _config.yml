@@ -1,9 +1,6 @@
 title: Tyler Hardy
 logo: /assets/img/legend-logo.jpg
 description: Cybersecurity professional, always keep improving.
-
-[About Me](./aboutme.html)
-
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
