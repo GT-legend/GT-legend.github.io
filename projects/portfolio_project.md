@@ -44,5 +44,5 @@ There are multiple ways to perform this step but I chose to use a theme supporte
 * The "index.html" file will serve as the homepage of your site.
 * The "_config.yml" file is the configuration file used for customizing this static site. It will allow you to set the title, description, author information, theme settings, and more.
 
-[Back](./)
+[Back](./projects)
 
