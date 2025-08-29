@@ -5,4 +5,4 @@ layout: default
 
 
 
-[Back](/vendors/Fortinet/fortinet.html)
+[Back](/vendors/fortinet.html)

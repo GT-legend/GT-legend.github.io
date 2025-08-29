@@ -5,4 +5,4 @@ layout: default
 
 
 
-[Back](/vendors/Cisco/cisco.html)
+[Back](/vendors/cisco.html)
