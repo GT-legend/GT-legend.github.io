@@ -6,9 +6,11 @@ layout: default
 
 ## Tooling Guides and Cheatsheets
 
-[Wireshark](./tooling_and_skills/wireshark.html)
+[Wireshark Guide](./tooling_and_skills/wireshark.html)
 
-[TCPDump](./tooling_and_skills/tcp_ip_and_tcpdump.html)
+[TCPDump Cheat Sheet](./tooling_and_skills/tcp_ip_and_tcpdump.html)
+
+[TCPDump Command Reference](./tooling_and_skills/tcpdump_commands.html)
 
 ## Skill Guides and Cheatsheets
 
