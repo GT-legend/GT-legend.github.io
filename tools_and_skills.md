@@ -14,7 +14,11 @@ layout: default
 
 [Git](./tooling_and_skills/git_guide.html)
 
+[Markdown](./tooling_and_skills/markdown.html)
+
 [Powershell](./tooling_and_skills/powershell.html)
+
+[Python](./tooling_and_skills/python.html)
 
 
 [back](./)
