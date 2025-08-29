@@ -4,124 +4,216 @@ layout: default
 
 # Markdown Cheat Sheet
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+[The Markdown Guide](https://www.markdownguide.org)!
 
-[Link to another page](/index.html).
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax/) and [extended syntax](https://www.markdownguide.org/extended-syntax/).
 
-There should be whitespace between paragraphs.
+## Basic Syntax
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
 
-# Header 1
+### Heading
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# H1
+## H2
+### H3
 
-## Header 2
+```
+# H1
+## H2
+### H3
+```
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+### Bold
 
-### Header 3
+**bold text**
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
+```
+**bold text**
+```
+
+### Italic
+
+*italicized text*
+
+```
+*italicized text*
+```
+
+### Blockquote
+
+> blockquote
+
+```
+> blockquote
+```
+
+### Ordered List
+
+1. First item
+2. Second item
+3. Third item
+
+```
+1. First item
+2. Second item
+3. Third item
+```
+
+### Unordered List
+
+- First item
+- Second item
+- Third item
+
+```
+- First item
+- Second item
+- Third item
+```
+
+### Code
+
+`code`
+
+```
+`code`
+```
+
+### Horizontal Rule
+
+---
+
+```
+---
+```
+
+### Link
+
+[Markdown Guide](https://www.markdownguide.org)
+
+```
+[Markdown Guide](https://www.markdownguide.org)
+```
+
+### Image
+
+![alt text](https://www.markdownguide.org/assets/images/tux.png)
+
+```
+![alt text](https://www.markdownguide.org/assets/images/tux.png)
+```
+
+## Extended Syntax
+
+These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+
+### Table
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+```
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+```
+
+### Fenced Code Block
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
 }
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+### Footnote
 
-#### Header 4
+Here's a sentence with a footnote. [^1]
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+[^1]: This is the footnote.
 
 ```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
 ```
 
+### Heading ID
+
+### My Great Heading {#custom-id}
+
 ```
-The final element.
+### My Great Heading {#custom-id}
+```
+
+### Definition List
+
+term
+: definition
+
+```
+term
+: definition
+```
+
+### Strikethrough
+
+~~The world is flat.~~
+
+```
+~~The world is flat.~~
+```
+
+### Task List
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+
+### Emoji
+
+That is so funny! :joy:
+
+```
+That is so funny! :joy:
+```
+
+(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
+
+### Highlight
+
+I need to highlight these ==very important words==.
+
+```
+I need to highlight these ==very important words==.
+```
+
+### Subscript
+
+H~2~O
+
+```
+H~2~O
+```
+
+### Superscript
+
+X^2^
+
+```
+X^2^
 ```
 
 [Back](/tools_and_skills.html)
