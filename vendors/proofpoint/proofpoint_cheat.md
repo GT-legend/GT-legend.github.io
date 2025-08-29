@@ -5,6 +5,6 @@ layout: default
 
 
 
-[Back](./vendors/proofpoint.html)
+[Back](/vendors/proofpoint/proofpoint.html)
 
 

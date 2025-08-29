@@ -5,4 +5,4 @@ layout: default
 
 
 
-[Back](./vendors/juniper.html)
+[Back](/vendors/Juniper/juniper.html)
