@@ -75,7 +75,7 @@ You can add special filter expressions to the tcpdump keyword to pick out specif
 | sctp port 22                 | Filter by source or destination port = 22                                                            |
 
 
-#### Dispay Commands
+#### Dislpay Commands
 
 These tcpdump switchets tell the terminal how to display the output.
 

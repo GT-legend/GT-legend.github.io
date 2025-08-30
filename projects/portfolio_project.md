@@ -21,7 +21,7 @@ For more documentation, go [Here](https://docs.github.com/en/get-started/start-y
 
 ### Creating a GitHub Pages Site:
 
-There are multiple ways to perform this step but I chose to use a theme supported by GitHub Pages. These can be found at https://github.com/pages-themes/. I recommend the "minimal" theme, which has a professional feel and is the easiest to maintain for someone new to coding. A page can also be created without a theme if desired.
+There are multiple ways to perform this step but I chose to use a theme supported by GitHub Pages. These can be found at [https://github.com/pages-themes/](https://github.com/pages-themes/). I recommend the "minimal" theme, which has a professional feel and is the easiest to maintain for someone new to coding. A page can also be created without a theme if desired.
 
 1. Login to GitHub
 * Login to your GitHub account.
@@ -46,7 +46,7 @@ There are multiple ways to perform this step but I chose to use a theme supporte
 
 ### Tips on Adding and Editing
 
-[Markdown Editing](/tooling_and_skills/markdown.md)
+[Markdown Editing](/tooling_and_skills/markdown.html)
 
 
 

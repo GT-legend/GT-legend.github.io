@@ -12,7 +12,7 @@ Please see below for all sources. [^1]
 - [Logical Operators](#logical-operators)
 - [Filtering Packets with Display Filters](#filtering-packets-with-desplay-filters)
 - [Filter Types](#filter-types)
-- [Wireshark Capturing Modes](#wireshark-captureing-modes)
+- [Wireshark Capturing Modes](#wireshark-capturing-modes)
 - [Miscellaneous](#miscellaneous)
 - [Capture Filter Syntax](#capture-filter-syntax)
 - [Display Filter Syntax](#display-filter-syntax)
