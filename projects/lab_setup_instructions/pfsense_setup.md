@@ -6,9 +6,17 @@ layout: default
 
 Description.
 
-- [Home Lab Diagram](#home-lab-diagram)
-- [Home lab Servers](#home-lab-servers)
-- [Links to Lab Setup Instructions](#links-to-lab-setup-instructions)
+- [Prerequisites](#prerequisites)
+- [Steps to install pfSense on VMWare](#steps-to-install-pfsense-on-vmware)
+- [Configure VMware workstation network for pfSense](#1.-configure-vmware-workstation-network-for-pfsense)
+- [Create PfSense Virtual machine](#prerequisites)
+- [Setup the pfSense VM hard disk](#prerequisites)
+- [Assign the VM resources](#prerequisites)
+- [PfSense installation](#prerequisites)
+- [Setup the client machine](#prerequisites)
+- [pfSense initial setup](#prerequisites)
+- [Install VMware tools in pfSense](#prerequisites)
+- [Access the internet on Pfsense LAN side](#prerequisites)
 
 ## Prerequisites
 
@@ -59,7 +67,7 @@ Name the virtual machine. Leave as default or choose the location to install VM 
 <-- add picture of naming vm -->
 ![Branching](https://gt-legend.github.io/assets/img/pfsense_install/ARP.PNG)
 
-3. Setup the pfSense VM hard disk
+### 3. Setup the pfSense VM hard disk
 
 Configure the Hard Disk as the default value 20GB and choose split virtual disk into multiple files and click on Next.
 
@@ -108,7 +116,7 @@ Make sure you check the option which says, Power on this Virtual machine after c
 <!-- add picture power on check -->
 ![Branching](https://gt-legend.github.io/assets/img/pfsense_install/ARP.PNG)
 
-### 5. PfSense installation.
+### 5. PfSense installation
 
 The pfsense installation now will begin. You can accept the copyright notice.
 
@@ -202,9 +210,9 @@ Enter subnet mask, which is 24 is CIDR notation. Select enter for LAN, Select n 
 <!-- add picture -->
 ![Branching](https://gt-legend.github.io/assets/img/pfsense_install/ARP.PNG)
 
-### 6. Setup the client machine.
+### 6. Setup the client machine
 
-I have a Windows 11 test machine configured in VMware workstation using steps [here](/projects/lab_setup_instructions/Win11_setup.html); I will be using it as a client machine to test the end user connectivity on the PfSense LAN side.
+I have a Windows 10 test machine configured in VMware workstation using steps [here](/projects/lab_setup_instructions/Win10_setup.html); I will be using it as a client machine to test the end user connectivity on the PfSense LAN side.
 
 Remember we have configured PfSense LAN side interface as Host-only network, go to the client operating system in VMware workstation and right-click on it and click on settings, add client VM to be part of Host-only network.
 
@@ -213,16 +221,15 @@ Remember we have configured PfSense LAN side interface as Host-only network, go 
 
 Once the LAN side of the PfSense connected to the client operating systems, it should start getting IP addresses from the PfSense DHCP server on the LAN.
 
-As you can see, the Centos machine got the IP address 192.168.1.101
+As you can see, the Windows 10 machine got the IP address 192.168.105.201
 
 <!-- add picture -->
 ![Branching](https://gt-legend.github.io/assets/img/pfsense_install/ARP.PNG)
 
-Live mint got the first IP from the range 192.168.1.100.
 
-### 7. pfSense initial setup.
+### 7. pfSense initial setup
 
-As we have the IP address on both the Centos and the Linux mint, you now should be able to access the pfSense web GUI from either of the machine by typing the URL https://192.168.105.2
+As we have the IP address on both the Centos and the Linux mint, you now should be able to access the pfSense web GUI from either of the machine by typing the URL for your pfSense LAN IP. For me that would be https://192.168.105.2 
 
 You would get a security warning, ignore that and click on continue.
 
@@ -233,12 +240,9 @@ You will be prompted to enter the credentials; the username is admin and the pas
 
 You will be taken to the initial setup wizard, since this is going to be the lab, I would choose the default options and eventually on the step 6 I would set the password for the web GUI.
 
-<!-- add picture -->
-![Branching](https://gt-legend.github.io/assets/img/pfsense_install/ARP.PNG)
-
 Once reloaded you will be able to see the message Congratulations! pfSense is now configured. Click on Finish.
 
-### 8. Install VMware tools in pfSense.
+### 8. Install VMware tools in pfSense
 
 When you are using the any operating system on VMware workstation, it is recomeded that you install VMware tools to get best performance.  It is no different for the pfsense.
 
@@ -258,21 +262,17 @@ You will get a message that says, VMware tools package was successfully installe
 <!-- add picture -->
 ![Branching](https://gt-legend.github.io/assets/img/pfsense_install/ARP.PNG)
 
-### 9. Access the internet on Pfsense LAN side.
+### 9. Access the internet on Pfsense LAN side
 
 Let’s try to access the internet on the machine that is connected to the pfSense LAN side.
 
 To test the internet connectivity, I am going to ping the google DNS IP 8.8.8.8.
 
-As you can see, I can reach the internet, and when I try to do the traceroute it shows the internet is via the pfSense firewall.
+As you can see, I can reach the internet, and if you try to do a traceroute it shows the internet is via the pfSense firewall.
 
 <!-- add picture -->
 ![Branching](https://gt-legend.github.io/assets/img/pfsense_install/ARP.PNG)
 
-The output ins the same on the Windows 11 side as well.
-
-<!-- add picture -->
-![Branching](https://gt-legend.github.io/assets/img/pfsense_install/ARP.PNG)
 
 
 [Back](/projects/home_lab.html)
