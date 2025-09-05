@@ -7,6 +7,8 @@
 
 I am a network security analyst and proxy/firewall engineer with Level Blue. Always looking to grow and never stagnate!
 
+Currently working towards CCNP SCOR certification and the Cyber Defense Operations Graduate Certificate from SANS technology Institute.
+
 ### Toolbox
 
 #### OS and Vendor Experience
@@ -15,17 +17,18 @@ I am a network security analyst and proxy/firewall engineer with Level Blue. Alw
 
 #### Languages
 
-<img src="./assets/img/icons/python.png" alt="Description" width="30" height="30">
+<img src="./assets/img/icons/python.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/markdown.png" alt="Description" width="30" height="30">
 
 #### Tools 
 
-<img src="./assets/img/icons/wireshark.png" alt="Description" width="30" height="30">
+<img src="./assets/img/icons/wireshark.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/pycharm.png" alt="Description" width="30" height="30">
 
 ## Education and Certifications
 
 ### Education
 
 B.S. in Computer Networks & Security, UMUC
+Applied Cybersecurity Certificate, SANS Technology Institute
 
 ### Certifications
 
@@ -33,5 +36,9 @@ Certified Incident Handler (GCIH)
 Security Essentials Certification (GSEC)
 Foundational Cybersecurity Technologies (GFACT)
 Certified Intrusion Analyst (GCIA)
+
+### Current Projects
+
+Finishing my home cybersecurity lab setup is my current priority. I will also be working with python to automate analyzing logs and daily tasks for increase productivity.
 
 [Back](./)
