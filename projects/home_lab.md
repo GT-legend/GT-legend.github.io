@@ -32,6 +32,6 @@ Description of homelab.
 
 [PfSense Installation in VMWare Workstation](/projects/lab_setup_instructions/pfsense_setup.html)
 
-[Windows 10 Test Machine in VMWare Workstation](/projects/lab_setup_instructions/Win11_setup.html)
+[Windows 10 Test Machine in VMWare Workstation](/projects/lab_setup_instructions/Win10_setup.html)
 
 [Back](/projects.html)

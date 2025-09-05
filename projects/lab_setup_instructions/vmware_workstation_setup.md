@@ -26,15 +26,15 @@ Description.
 
 ## How to Download VMware Workstation for Windows
 
-1.  Create a Broadcom Account
+### 1.  Create a Broadcom Account
 
 First, click [here](https://profile.broadcom.com/web/registration) and create a Broadcom account using your email.
 
-2.  Sign In to the Broadcom Support Portal
+### 2.  Sign In to the Broadcom Support Portal
 
 After creating your account, make sure to sign in to your Broadcom account.
 
-3.  Download VMware Workstation Pro
+### 3.  Download VMware Workstation Pro
 
 Now, click [here](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware%20Workstation%20Pro&freeDownloads=true) to go to the VMware Workstation 17 Pro download page
 
@@ -52,7 +52,7 @@ Download VMware Workstation for Windows
 
 ## How to Install the VMware Virtual Machine Software
 
-1.  Run the Installer
+### 1.  Run the Installer
 
 * Locate the Downloaded File: Head to the location where you downloaded the VMware Workstation 17 installer.
 
@@ -60,13 +60,13 @@ Download VMware Workstation for Windows
 
 * User Account Control: If prompted by User Account Control, click "Yes" to allow the installer to make changes to your device.
 
-2.  Installation Wizard
+### 2.  Installation Wizard
 
 * Welcome Screen: Once the installer launches, you will see the VMware Workstation 17 Installation Wizard. Click "Next" to proceed.
 
 * End User License Agreement: Read through the End User License Agreement. If you agree to the terms, select "I accept the terms in the license agreement" and click "Next."
 
-3. Choosing the Installation Type
+### 3. Choosing the Installation Type
 
 You will be prompted to select the installation type:
 
@@ -76,7 +76,7 @@ You will be prompted to select the installation type:
 
 For most users, the "Typical" option is recommended. Click "Next" once you’ve made your choice.
 
-4. Setup Configurations
+### 4. Setup Configurations
 
 In this phase, you can configure certain options:
 
@@ -90,17 +90,17 @@ In this phase, you can configure certain options:
 
 * Click "Install" to begin the installation process.
 
-6. Install Additional Drivers
+### 6. Install Additional Drivers
 
 * VMware Workstation may offer to install additional drivers (e.g., VMware Virtual Ethernet Adapter). Follow the prompts to complete the installation of these drivers if necessary.
 
-7. Complete Installation
+### 7. Complete Installation
 
 * Once the installation has completed, you’ll see a confirmation screen.
 
 * You can choose to check for updates before the installation concludes, or simply click "Finish" to exit the wizard.
 
-8. VMware Workstation and License Key
+### 8. VMware Workstation and License Key
 
 After installation, open VMware Workstation from your Start menu or desktop shortcut:
 
