@@ -23,7 +23,7 @@ Description of homelab.
 3. Syslog server (ubuntu) - Log Storage
 4. Splunk SIEM - Network security and event management 
 5. Windows Server 2025 - For generating logs in an AD environmnet
-6. Windows 11 workstation - Test machine
+6. Windows 10 workstation - Test machine
 7. Kali Linux workstation - Test machine
 
 ## Links to Lab Setup Instructions
@@ -33,5 +33,10 @@ Description of homelab.
 [PfSense Installation in VMWare Workstation](/projects/lab_setup_instructions/pfsense_setup.html)
 
 [Windows 10 Test Machine in VMWare Workstation](/projects/lab_setup_instructions/Win10_setup.html)
+
+### Future Lab Ideas
+
+* PKI Lab
+* EVE-NG Networking and Security Lab
 
 [Back](/projects.html)
