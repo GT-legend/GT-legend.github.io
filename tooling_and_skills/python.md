@@ -85,11 +85,21 @@ List comprehension simplifies the creation of a new list based on the values of 
 
 Below, the tuple in question is fruits = ("apple", "banana", "cherry").
 
+| Command                                                                                                                       | Description                                                                                                                                                                                                                     |
+|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| "­app­le" in fruits                                                                                                           | Check if "­app­le" is present in the tuple. This command returns the value True.                                                                                                                                                |
+| (x, y, z) = fruits # x == "apple" # y == "banana" # z == "cherry" (a, *_) = fruits # a == "apple" # _ == ["banana", "cherry"] | Assign variables to take up each item in the tuple, also known as unpacking a tuple.  Either the number of variables must match the number of values in the tuple, or use an asterisk as shown to put away the unwanted values. |
+
 ### Tuple Manipulation
 
 ### Adding items
 
 You can add items to a tuple as follows:
+
+| Initial | original = ("ap­ple­", "­ban­ana­", "­che­rry­") |
+|---------|--------------------------------------------------|
+| Code    | new_item = ("or­ang­e",) original += new_item    |
+| Result  | ("ap­ple­", "­ban­ana­", "­che­rry­", "orange")  |
 
 Tip: When creating a single-item tuple, remember to include a comma.
 
@@ -97,15 +107,49 @@ Tip: When creating a single-item tuple, remember to include a comma.
 
 Since tuples are immutable, you can’t remove or modify their contents directly. The key is converting it into a list and back.
 
+| Example           | Addition                                         | Removal                                          | Change                                           |
+|-------------------|--------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| Initial           | original = ("ap­ple­", "­ban­ana­", "­che­rry­") | original = ("ap­ple­", "­ban­ana­", "­che­rry­") | original = ("ap­ple­", "­ban­ana­", "­che­rry­") |
+| → List            | tempList = list(original)                        | tempList = list(original)                        | tempList = list(original)                        |
+| Code              | tempList.appe­nd(­"­ora­nge­")                   | tempList.remo­ve(­"­app­le")                     | tempList[1] = "­kiw­i"                           |
+| → Tuple           | newList = tuple(tempList)                        | newList = tuple(tempList)                        | newList = tuple(tempList)                        |
+| Result of newList | ("ap­ple­", "­ban­ana­", "­che­rry­", "orange")  | ("­ban­ana­", "­che­rry­")                       | ("kiwi", "­ban­ana­", "­che­rry­")               |
+
 ## Dictionary Operations
 
 ### Adding Items
 
 There are three methods
 
+| Example        | Addition #1 (direct)                                                                          | Addition #2 (update())                                                                        | Addition #3 (**)                                                                              |
+|----------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Initial        | meta = { "FB": "Facebook", "WA": "WhatsApp", "IG": "Instagram" }  new_co = { "GIF": "Giphy" } | meta = { "FB": "Facebook", "WA": "WhatsApp", "IG": "Instagram" }  new_co = { "GIF": "Giphy" } | meta = { "FB": "Facebook", "WA": "WhatsApp", "IG": "Instagram" }  new_co = { "GIF": "Giphy" } |
+| Code           | meta[­"GIF"] = "Giphy"                                                                        | meta.update(new_co)                                                                           | meta = {**meta, **new_co}                                                                     |
+| Result of meta | { "FB": "Facebook", "WA": "WhatsApp", "IG": "Instagram", "GIF": "Giphy" }                     | { "FB": "Facebook", "WA": "WhatsApp", "IG": "Instagram", "GIF": "Giphy" }                     | { "FB": "Facebook", "WA": "WhatsApp", "IG": "Instagram", "GIF": "Giphy" }                     |
+
 Warning: duplicate keys will cause the latest values to overwrite earlier values.
 
 ### General Operations
+
+| Command            | Description                                                       | Example                      |
+|--------------------|-------------------------------------------------------------------|------------------------------|
+| del dict1[­"key1"] | Remove the item with the specified key name                       | del meta[­"WA"] # "WhatsApp" |
+| del di­ct1         | Delete the dictionary                                             | del meta                     |
+| dict1[key1]        | Access the value of a dictionary dict1 element using its key key1 | meta["FB"]# "Facebook"       |
+
+| Dictionary method | Description                                                                                 | Usage                                  |
+|-------------------|---------------------------------------------------------------------------------------------|----------------------------------------|
+| clear()           | Remove all the elements from the dictionary                                                 | dict1.c­lear()                         |
+| copy()            | Return a copy of the dictionary                                                             | dict1.c­opy()                          |
+| fromkeys()        | Return a dictionary with the specified keys and value                                       | dict1.f­rom­key­s(keys, value)         |
+| get()             | Return the value of the specified key                                                       | dictio­nar­y.g­et(­key­_name, value)   |
+| items()           | Return a list containing a tuple for each key-value pair                                    | dict1.i­tems()                         |
+| keys()            | Return a list containing the dictio­nary’s keys                                             | dict1.k­eys()                          |
+| pop()             | Remove the element with the specified key                                                   | dict1.p­op(ke­y_name)                  |
+| popitem()         | Remove the last inserted key-value pair                                                     | dict1.p­opi­tem()                      |
+| setdef­ault()     | Return the value of the specified key. If the key does not exist, add as new key-value pair | dict1.s­etd­efa­ult­(ke­y_name, value) |
+| update()          | Update the dictionary with the specified key-value pairs                                    | dict1.u­pda­te(­ite­rable)             |
+| values()          | Return a list of all the values in the dictionary                                           | dict1.v­alues()                        |
 
 ## Set Operations
 
@@ -113,9 +157,37 @@ Warning: duplicate keys will cause the latest values to overwrite earlier values
 
 Although you can’t directly access items in a set, you can loop through the items:
 
+| Example | Accessing items in a set (using list comprehension)                              |
+|---------|----------------------------------------------------------------------------------|
+| Code    | set1 = {32, 1, 2, 27, 83, 26, 59, 60} set1_odd = [i for i in set1 if i % 2 == 1] |
+| Result  | set1_odd = [1, 27, 83, 59]                                                       |
+
 ### Adding and Removing Items
 
+| Command            | Description                                                                         | Usage                                                       |
+|--------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| add()              | Add a single element to the set                                                     | fruits.a­dd(­"­ora­nge­")                                   |
+| update()           | Add elements from another set into this set                                         | fruits.a­dd(­{"pi­nea­ppl­e", "­man­go", "durian"})         |
+| discard() remove() | Remove the specified element                                                        | fruits.d­isc­ard­("ba­nan­a") fruits.r­emo­ve(­"­ban­ana­") |
+| pop()              | Remove the last element in the set. The return value of bye is the removed element. | bye = fruits.pop()                                          |
+| clear()            | Empty the set                                                                       | fruits.clear()                                              |
+| copy()             | Return a copy of the set                                                            | fruits.copy()                                               |
+| del                | Delete the set                                                                      | del fruits                                                  |
+
 ### Mathematical Operations
+
+| Command / Binary operator(s)  | Description                                                                      |
+|-------------------------------|----------------------------------------------------------------------------------|
+| differ­ence() -               | Get the difference of several sets                                               |
+| differ­enc­e_u­pdate()        | Remove the elements in this set that are also included in another, specified set |
+| inters­ect­ion() &            | Get intersection of sets                                                         |
+| inters­ect­ion­_up­date()     | Remove the elements in this set that are not present in other, specified set(s)  |
+| isdisj­oint()                 | Return whether two sets have an inters­ection                                    |
+| issubset() <, <=              | Check if a set is a (strict <) subset                                            |
+| issupe­rset() >, >=           | Check if a set is a (strict >) superset                                          |
+| symmet­ric­_di­ffe­rence() ^  | Get symmetric differ­ence of two sets                                            |
+| symmetric_difference_update() | Insert the symmetric differ­ences from this set and another                      |
+| union() \|                    | Get the union of sets                                                            |
 
 ## Algorithms and the Complexities
 
@@ -125,17 +197,88 @@ This section is about the complexity classes of various Python data structures.
 
 Tuples have the same operations (non-mutable) and complexities.
 
+| Command (L: list) | Complexity class |
+|-------------------|------------------|
+| L.append(item)    | O(1)             |
+| L.clear()         | O(1)             |
+| item in/not in L  | O(N)             |
+| L.copy()          | O(N)             |
+| del L[i]          | O(N)             |
+| L.extend(…)       | O(N)             |
+| L1==L2, L1!=L2    | O(N)             |
+| L[i]              | O(1)             |
+| for item in L:    | O(N)             |
+| len(L)            | O(1)             |
+| k*L               | O(k*N)           |
+| min(L), max(L)    | O(N)             |
+| L.pop(-1)         | O(1)             |
+| L.pop(item)       | O(N)             |
+| L.remove(…)       | O(N)             |
+| L.reverse()       | O(N)             |
+| L[x:y]            | O(y-x)           |
+| L.sort()          | O(N*log(N))      |
+| L[i]=item         | O(1)             |
+
 ### Dictionary
 
+| Command (d: dictionary) | Complexity class / range (—) |
+|-------------------------|------------------------------|
+| d.clear()               | O(1)                         |
+| dict(…)                 | O(len(d))                    |
+| del d[k]                | O(1) — O(N)                  |
+| d.get()                 | O(1) — O(N)                  |
+| for item in d:          | O(N)                         |
+| len(d)                  | O(1)                         |
+| d.pop(item)             | O(1) — O(N)                  |
+| d.popitem()             | O(1)                         |
+| d.values()              | O(1)                         |
+| d.keys()                | O(1)                         |
+| d.fromkeys(seq)         | O(len(seq))                  |
+
 ### Set
+
+| Operation            | Command (s: set)         | Complexity class / range (—)    |
+|----------------------|--------------------------|---------------------------------|
+| Add                  | s.add(item)              | O(1) — O(N)                     |
+| Clear                | s.clear()                | O(1)                            |
+| Copy                 | s.copy()                 | O(N)                            |
+| Containment          | item in/not in s         | O(1) — O(N)                     |
+| Creation             | set(…)                   | O(len(s))                       |
+| Discard              | s.discard(item)          | O(1) — O(N)                     |
+| Difference           | s1-s2                    | O(len(s1))                      |
+| Difference Update    | s1.difference_update(s2) | O(len(s2)) — ∞                  |
+| Equality             | s1==s2, s1!=s2           | O(min(len(s1), len(s2)))        |
+| Intersection         | s1&s2                    | O(min(len(s1), len(s2)))        |
+| Iteration            | for item in s:           | O(N)                            |
+| Is Subset            | s1<=s2                   | O(len(s1))                      |
+| Is Superset          | s1>=s2                   | O(len(s2)) — O(len(s1))         |
+| Pop                  | s.pop()                  | O(1) — O(N)                     |
+| Union                | s1\|s2                   | O(len(s1)+len(s2)) — ∞          |
+| Symmetric Difference | s1^s2                    | O(len(s1)) — O(len(s1)*len(s2)) |
 
 ## Symbol Table
 
 Python keeps track of variables using symbol tables, which you can explore using the following basic commands:
 
+| Command  | Description                                                                                |
+|----------|--------------------------------------------------------------------------------------------|
+| __doc__  | Program documentation as comments (#, """, ''') at the beginning of the code               |
+| __name__ | How you run the Python program.Direct execution: __name__ == "__main__"                    |
+| dir()    | Effective namespace                                                                        |
+| global() | Dictionary of variable names of global scope to variable values                            |
+| locals() | Dictionary of variable names of local scope to variable values                             |
+| eval()   | Return the value of the specified variable Example usage:for x in dir(): print(x, eval(x)) |
+
 ## Python Libraries
 
 The following commands are for setting up Python programs or libraries for use inside your program:
+
+| Command                        | Description                                                                             |
+|--------------------------------|-----------------------------------------------------------------------------------------|
+| import module1                 | Import program / library  module1 as Python module                                      |
+| from module1 import obj1, obj2 | Import the objects obj1, obj2 from module1                                              |
+| from module1 import *          | Import all objects in module1                                                           |
+| module1.__dict__               | Return the dictionary containing module1’s symbol table, like dir() of the main program |
 
 Examples of [Python libraries](https://docs.python.org/3/library/) containing other non-primitive data structures:
 
