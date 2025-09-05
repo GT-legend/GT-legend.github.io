@@ -30,27 +30,39 @@ This cheat sheet provides commonly used CLI commands to manage a FortiGate firew
 
 ### 1.1 Displays firmware version, serial number, and system status.
 
-```get system status```
+```
+get system status
+```
 
 ### 1.2 Shows real-time CPU, memory, session counts, etc.
 
-```get system performance status```
+```
+get system performance status
+```
 
 ### 1.3 Shows status and configuration of all interfaces.
 
-```get system interface```
+```
+get system interface
+```
 
 ### 1.4 Displays interface settings in config format.
 
-```show system interface```
+```
+show system interface
+```
 
 ### 1.5 Reboots the FortiGate.
 
-```execute reboot```
+```
+execute reboot
+```
 
 ### 1.6 Powers off the device (if supported).
 
-```execute shutdown```
+```
+execute shutdown
+```
 
 * * *
 
@@ -279,27 +291,39 @@ Refer to FortiSwitch documentation for exact CLI commands and best practices.
 
 Backup configuration to FortiGate’s flash memory (varies by model).
 
-```execute backup config flash```
+```
+execute backup config flash
+```
 
 Restore configuration from flash.
 
-```execute restore config flash```
+```
+execute restore config flash
+```
 
 Backup configuration to a TFTP server.
 
-```execute backup config tftp <filename> <ip>```
+```
+execute backup config tftp <filename> <ip>
+```
 
 Restore config from TFTP.
 
-```execute restore config tftp <filename> <ip>```
+```
+execute restore config tftp <filename> <ip>
+```
 
 Displays the entire config (including default values). This can be large.
 
-```show full-configuration```
+```
+show full-configuration
+```
 
 Runs specific debug/test commands for daemons (ips, wad, dnsproxy, etc.).
 
-```diag test application <process_name> <id>```
+```
+diag test application <process_name> <id>
+```
 
 * * *
 
