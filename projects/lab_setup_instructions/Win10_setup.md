@@ -58,7 +58,7 @@ You can download the Windows 10 image from [here](https://www.microsoft.com/en-u
 
 * Click on Customize Hardware to allocate resources such as RAM, CPU cores, and network preferences.
 
-* Memory: For Windows 11, at least 4 GB is required. However, if your host allows, allocate 8 GB or more for better performance.
+* Memory: For Windows 10, at least 4 GB is required. However, if your host allows, allocate 8 GB or more for better performance.
 
 * Processors: Allocate at least 2 cores for a smoother experience.
 
@@ -116,11 +116,11 @@ The installation will take some time and may restart your virtual machine severa
 
 8. Finalizing Installation
 
-* Wait for the setup to complete, and you’ll be directed to the Windows 11 desktop.
+* Wait for the setup to complete, and you’ll be directed to the Windows 10 desktop.
 
 ### Post Installation Configuration
 
-Once you’re on the Windows 11 desktop, there are several configurations you might want to consider:
+Once you’re on the Windows 10 desktop, there are several configurations you might want to consider:
 
 1. Install VMware Tools
 
