@@ -14,11 +14,15 @@ layout: default
 
 ## Skill Guides and Cheatsheets
 
+### Skills
+
 [Git](./tooling_and_skills/git_guide.html)
 
-[Markdown](./tooling_and_skills/markdown.html)
-
 [Powershell](./tooling_and_skills/powershell.html)
+
+## Languages
+
+[Markdown](./tooling_and_skills/markdown.html)
 
 [Python](./tooling_and_skills/python.html)
 

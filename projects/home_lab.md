@@ -22,7 +22,7 @@ Description of homelab.
 2. Zeek - Log deep dive and analysis
 3. Syslog server (ubuntu) - Log Storage
 4. Splunk SIEM - Network security and event management 
-5. Windows Server 2025 - For generating logs in an AD environmnet
+5. Windows Server 2022 - For generating logs in an AD environmnet
 6. Windows 10 workstation - Test machine
 7. Kali Linux workstation - Test machine
 
@@ -33,6 +33,8 @@ Description of homelab.
 [PfSense Installation in VMWare Workstation](/projects/lab_setup_instructions/pfsense_setup.html)
 
 [Windows 10 Test Machine in VMWare Workstation](/projects/lab_setup_instructions/Win10_setup.html)
+
+[Windows Server 2022 in VMWare Workstation](/projects/lab_setup_instructions/Win_Serv_2022_setup.html)
 
 ### Future Lab Ideas
 

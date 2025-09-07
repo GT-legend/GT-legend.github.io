@@ -4,6 +4,17 @@ layout: default
 
 ## Vendor Documentation
 
+### Workstation OS Guides and Cheatsheets
+
+[Linux](./vendors/linux.html)
+
+[MAC](./vendors/mac.html)
+
+[Windows](./vendors/windows.html)
+
+
+### Networking and Security Vendor Guides and Cheatsheets
+
 [Bluecoat](./vendors/bluecoat.html)
 
 [Cisco](./vendors/cisco.html)
