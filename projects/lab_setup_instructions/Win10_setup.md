@@ -4,6 +4,8 @@ layout: default
 
 # Windows 10 Test Machine in VMWare Workstation
 
+* * *
+
 Description.
 
 
@@ -15,6 +17,7 @@ Description.
 
 
 ## Prerequisites
+-------------------------------------
 
 * You need to have VMware workstation pro.
 
@@ -25,8 +28,10 @@ I am using VMware workstation 17 and have a guide to install [here](/projects/la
 You can download the Windows 10 image from [here](https://www.microsoft.com/en-us/software-download/windows10), make sure you choose AMD64, DVD image(iso) installer.
 
 ## Steps to install Windows 10 on VMWare
+-------------------------------------
 
 ### Setting Up VMware Workstation
+-------------------------------------
 
 #### 1. Open VMware Workstation 17 Pro
 
@@ -73,6 +78,7 @@ You can download the Windows 10 image from [here](https://www.microsoft.com/en-u
 * Once configured, click Close, then Finish to create your virtual machine.
 
 ### Installing Windows
+-------------------------------------
 
 #### 1. Power On the VM
 
@@ -154,5 +160,6 @@ VMware Tools improves performance and usability. To install it:
 
 * Open Settings > Windows Update, and check for updates to ensure you have the latest security patches and features.
 
+* * *
 
 [Back](/projects/home_lab.html)

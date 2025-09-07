@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Wireshark Guide
+-------------------------------------
 
 Please see below for all sources. [^1]
 
@@ -22,9 +23,11 @@ Please see below for all sources. [^1]
 - [Main Toolbar Items](#main-toolbar-items)
 
 ## What is Wireshark?
+-------------------------------------
 
 
 #### Default Columns In a Packet Capture Output
+-------------------------------------
 
 | Name              | Description                                                   |
 |-------------------|---------------------------------------------------------------|
@@ -36,6 +39,7 @@ Please see below for all sources. [^1]
 | Length            | Length of the frame in bytes                                  |
 
 #### Logical Operators
+-------------------------------------
 
 | Operator    | Description        | Example                                                                       |
 |-------------|--------------------|-------------------------------------------------------------------------------|
@@ -46,6 +50,7 @@ Please see below for all sources. [^1]
 | [ n ] [ … ] | Substring operator | Filter a specific word or text                                                |
 
 #### Filtering Packets with Display Filters
+-------------------------------------
 
 | Operator | Description           | Example                   |
 |----------|-----------------------|---------------------------|
@@ -57,6 +62,7 @@ Please see below for all sources. [^1]
 | le or <= | Less than or equal    | frame.len  <=   10        |
 
 #### Filter Types
+-------------------------------------
 
 | Name           |  Description                        |
 |----------------|-------------------------------------|
@@ -64,6 +70,7 @@ Please see below for all sources. [^1]
 | Display filter | Hide packets from a capture display |
 
 #### Wireshark Capturing Modes
+-------------------------------------
 
 | Name             | Description                                                                             |
 |------------------|-----------------------------------------------------------------------------------------|
@@ -71,6 +78,7 @@ Please see below for all sources. [^1]
 | Monitor mode     | Setup the wireless interface to capture all traffic it can receive (Unix/ Linux only)   |
 
 #### Miscellaneous
+-------------------------------------
 
 | Name                | Description             |
 |---------------------|-------------------------|
@@ -79,18 +87,21 @@ Please see below for all sources. [^1]
 | CTRL+E              | Start/Stop Capturing    |
 
 #### Capture Filter Syntax
+-------------------------------------
 
 | Syntax  | Protocol | Direction | Hosts       | Value | Logical Operator | Expressions          |
 |---------|----------|-----------|-------------|-------|------------------|----------------------|
 | Example | tcp      | src       | 192.168.1.1 | 80    | and              | tcp dst 202.164.30.1 |
 
 #### Display Filter Syntax
+-------------------------------------
 
 | Syntax  | Protocol | String 1 | String 2 | Comparison Operator | Value       | Logical Operator | Expressions |
 |---------|----------|----------|----------|---------------------|-------------|------------------|-------------|
 | Example | http     | dest     | ip       | ==                  | 192.168.1.1 | and              | tcp port    |
 
 #### Keyboard Shortcuts via Main Display Window
+-------------------------------------
 
 | Accelerator      | Description                                                                                   | Accelerator      | Description                                                                  | Comparison Operator | Value       | Logical Operator |
 |------------------|-----------------------------------------------------------------------------------------------|------------------|------------------------------------------------------------------------------|---------------------|-------------|------------------|
@@ -104,10 +115,12 @@ Please see below for all sources. [^1]
 
 
 ### Protocol Values
+-------------------------------------
 
 ether,  fddi,  ip,  arp,  rarp,  decnet,  lat, sca,  moprc,  mopdl,  tcp  and  udp
 
 #### Common Filtering Commands
+-------------------------------------
 
 | Usage                        | Filter Syntax                                     |
 |------------------------------|---------------------------------------------------|
@@ -132,10 +145,11 @@ ether,  fddi,  ip,  arp,  rarp,  decnet,  lat, sca,  moprc,  mopdl,  tcp  and  u
 | RST flag filter              | tcp.flag.reset == 1                               |
 
 #### Main Toolbar Items
+-------------------------------------
 
 ![alt text](/assets/img/wireshark_toolbar_items.PNG)
 
-
+* * *
 
 [^1]: https://www.stationx.net/wireshark-cheat-sheet/
 

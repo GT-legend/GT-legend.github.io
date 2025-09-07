@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Home Lab 
+-------------------------------------
 
 Description of homelab.
 
@@ -13,10 +14,12 @@ Description of homelab.
 
 
 ## Home Lab Diagram
+-------------------------------------
 
 <!-- Insert Diagram Here -->
 
 ## Home lab Servers
+-------------------------------------
 
 1. PfSense - Firewall and DHCP for local host subnet
 2. Zeek - Log deep dive and analysis
@@ -27,6 +30,7 @@ Description of homelab.
 7. Kali Linux workstation - Test machine
 
 ## Links to Lab Setup Instructions
+-------------------------------------
 
 [VMWare Workstation installation](/projects/lab_setup_instructions/vmware_workstation_setup.html)
 
@@ -37,8 +41,11 @@ Description of homelab.
 [Windows Server 2022 in VMWare Workstation](/projects/lab_setup_instructions/Win_Serv_2022_setup.html)
 
 ### Future Lab Ideas
+-------------------------------------
 
 * PKI Lab
 * EVE-NG Networking and Security Lab
+
+* * *
 
 [Back](/projects.html)

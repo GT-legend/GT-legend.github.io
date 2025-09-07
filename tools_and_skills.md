@@ -4,7 +4,10 @@ layout: default
 
 # Tools and Skills
 
+* * *
+
 ## Tooling Guides and Cheatsheets
+-------------------------------------
 
 [Wireshark Guide](./tooling_and_skills/wireshark.html)
 
@@ -13,6 +16,7 @@ layout: default
 [TCPDump Command Reference](./tooling_and_skills/tcpdump_commands.html)
 
 ## Skill Guides and Cheatsheets
+-------------------------------------
 
 ### Skills
 
@@ -21,6 +25,7 @@ layout: default
 [Powershell](./tooling_and_skills/powershell.html)
 
 ## Languages
+-------------------------------------
 
 [Markdown](./tooling_and_skills/markdown.html)
 

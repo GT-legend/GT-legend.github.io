@@ -3,6 +3,7 @@ layout: default
 ---
 
 ## Table of Contents
+-------------------------------------
 
 - [Cisco ASA Basics](#cisco-asa-basics)
 - [Monitoring and Diagnostics](#monitoring-and-diagnostics)
@@ -13,6 +14,7 @@ layout: default
 - [Troubleshooting Commands](#troubleshooting-commands)
 
 #### Cisco ASA Basics
+-------------------------------------
 
 To effectively manage your Cisco ASA, it’s essential to know some foundational commands. Here’s a list to get you started:
 
@@ -41,6 +43,7 @@ reload
 Restarts the Cisco ASA device. Useful for applying updates or troubleshooting persistent issues.
 
 #### Monitoring and Diagnostics
+-------------------------------------
 
 Staying on top of your ASA’s health is crucial for network security. Here are key commands to monitor system performance:
 
@@ -77,6 +80,7 @@ show interface
 Displays the status, IP address, and error statistics for all interfaces.
 
 #### Configuration Commands
+-------------------------------------
 
 Configuring your ASA properly is crucial for securing your network. Here are the most frequently used configuration commands:
 
@@ -101,6 +105,7 @@ enable password mypassword encrypted
 
 
 #### Access Control Lists Management
+-------------------------------------
 
 Access Control Lists are essential for managing network traffic. Below are the commands to help you create and manage ACLs effectively:
 
@@ -123,6 +128,7 @@ show access-list
 ```
 
 #### NAT and VPN Configuration
+-------------------------------------
 
 Network Address Translation (NAT) and VPNs are crucial for securing external access to internal resources.
 
@@ -150,6 +156,7 @@ show vpn-sessiondb
 ```
 
 #### User Management and Security
+-------------------------------------
 
 Managing users and securing access to your ASA is critical for preventing unauthorized access.
 
@@ -174,6 +181,7 @@ show users
 
 
 #### Troubleshooting Commands
+-------------------------------------
 
 When things go wrong, these commands can help you quickly diagnose and fix issues:
 
@@ -197,6 +205,6 @@ show logging
 show version | include up
 ```
 
-
+* * *
 
 [Back](/vendors/cisco.html)
