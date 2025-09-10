@@ -23,7 +23,7 @@ This guide is for performing a packet capture on a Cisco IOS router. For more co
 ## Monitor Capture Command Syntax
 ----------------------------------------------
 
-monitor capture < buffer size size > < circular | linear > [dot1q] < filter acl-num \| exp-acl-num \| acl-name > < length bytes > { clear [filter] \| export buffer location \| schedule at hh : mm : ss < date < month year > > \| start < for number { seconds \| packets } > \| stop }
+monitor capture < buffer size size > < circular \| linear > [dot1q] < filter acl-num \| exp-acl-num \| acl-name > < length bytes > { clear [filter] \| export buffer location \| schedule at hh : mm : ss < date < month year > > \| start < for number { seconds \| packets } > \| stop }
 
 no monitor capture < buffer size size > < circular \| linear > [dot1q] < filter acl-num \| exp-acl-num \| acl-name > < length bytes > < clear [filter] \| export buffer location \| schedule at hh : mm : ss < date < month year > > >
 
