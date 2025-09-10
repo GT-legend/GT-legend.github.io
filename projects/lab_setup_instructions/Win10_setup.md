@@ -6,8 +6,10 @@ layout: default
 
 * * *
 
-Description.
+This guide is for installing a Windows 10 machine in VMware Workstation.
 
+## Quick Links
+--------------------------------------
 
 - [Prerequisites](#prerequisites)
 - [Steps to install Windows 10 on VMware](#steps-to-install-windows-10-on-vmware)
