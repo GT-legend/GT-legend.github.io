@@ -1,6 +1,7 @@
 title: Legend Labs
 logo: /assets/img/legend-logo.jpg
 description: Never stagnate, always keep improving.
+author: Tyler Hardy
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
