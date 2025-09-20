@@ -1,5 +1,7 @@
 ---
-layout: cisco
+layout: architect
+title: Cisco
+description: Quick reference guide for performing packet-capture on a Cisco IOS router.
 ---
 
 # Cisco Router Packet Capture Guide
