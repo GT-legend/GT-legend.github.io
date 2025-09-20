@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: cisco
 ---
 
 # Cisco Router Packet Capture Guide
@@ -112,11 +112,21 @@ Example: "monitor capture buffer PACKET_CAP export tftp://192.168.1.100/capture.
 
 ### Filters: 
 
+Access List Example: 
+
+ip access-list extended BUF-Filter
+permit ip host 192.168.1.1 host 172.16.1.1
+permit ip host 172.16.1.1 host 192.168.1.1
+
+Buffer Example: "monitor capture buffer PACKET_CAP size 2048 circular"
+
 You can apply access lists to filter the captured packets:
 
 ```
 monitor capture buffer <buffer-name> filter access-list <acl-name>
 ```
+
+Example using above access list and buffer: "monitor capture buffer PACKET_CAP filter access-list BUF-Filter
 
 ### Clear Capture Buffer:
 
