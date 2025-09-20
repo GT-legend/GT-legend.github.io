@@ -14,6 +14,13 @@
   </head>
   <body>
     <header>
+	<style>
+	body {
+		background-image: url(/assets/img/background-test.jpg);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+}
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
           <h1>{{ site.title | default: site.github.repository_name }}</h1>
@@ -26,6 +33,7 @@
           <a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
         {% endif %}
       </div>
+	</style>
     </header>
 
     <div id="content-wrapper">
