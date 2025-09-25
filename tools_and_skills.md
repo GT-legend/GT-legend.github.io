@@ -22,7 +22,7 @@ layout: default
 
 [Git](./tooling_and_skills/git_guide.html)
 
-[Powershell](./tooling_and_skills/powershell.html)
+<![Powershell](./tooling_and_skills/powershell.html)->
 
 ## Languages
 -------------------------------------
