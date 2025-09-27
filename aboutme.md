@@ -21,7 +21,7 @@ Currently working towards CCNP SCOR certification and the Cyber Defense Operatio
 
 #### Tools 
 
-<img src="./assets/img/icons/wireshark.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/pycharm.png" alt="Description" width="30" height="30">
+<img src="./assets/img/icons/wireshark.png" alt="Description" width="30" height="30"><img src="./assets/img/icons/pycharm.PNG" alt="Description" width="30" height="30">
 
 ## Education and Certifications
 
@@ -39,6 +39,6 @@ Certified Intrusion Analyst (GCIA)
 
 ### Current Projects
 
-Finishing my home cybersecurity lab setup is my current priority. I will also be working with python to automate analyzing logs and daily tasks for increase productivity.
+Finishing my home cybersecurity lab setup is my current priority. I will also be working with python and LLM AI to automate analyzing logs and daily tasks for increase productivity.
 
 [Back](./)
