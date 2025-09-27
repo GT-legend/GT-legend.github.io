@@ -13,7 +13,7 @@ layout: default
 - [Cmdlet Aliases](#cmdlet-aliases)
 - [Efficient PowerShell](#efficient-powershell)
 - [5 PowerShell Essentials](#5-powershell-essentials)
-- [Pipelining, Loops, and Variables](#pipelining,-loops,-and-variables)
+- [Pipelining, Loops, and Variables](#pipelining-loops-and-variables)
 
 ## Launching PowerShell
 
@@ -351,7 +351,7 @@ Alias
 PS C:\> sls –path [file] –pattern [string]
 ```
 
-## Pipelining, Loops, and Variables
+## Pipelining Loops and Variables
 
 Piping cmdlet output to another cmdlet:
 
