@@ -38,7 +38,9 @@ layout: default
 
 [Markdown](./tooling_and_skills/languages/markdown.html)
 
-<!-- [Powershell](./tooling_and_skills/languages/powershell.html) -->
+[Powershell](./tooling_and_skills/languages/powershell.html)
+
+<!-- [Powershell Get-WinEvent](./tooling_and_skills/languages/powershell-get_winevent.html) -->
 
 [Python](./tooling_and_skills/languages/python.html)
 
